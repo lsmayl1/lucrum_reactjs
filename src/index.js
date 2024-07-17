@@ -10,21 +10,17 @@ import PerformancePage from './PerformancePage';
 
 export default function Main(){
 	return (
-		// <Router>
-		//   <Routes basename={process.env.PUBLIC_URL}> 
-		// 	<Route path="/" element={<App />} />
-		// 	<Route path="/about" element={<AboutPage />} />
-		// 	<Route path="/service" element={<ServicesPage />} />
-		// 	<Route path="/login" element={<LoginPage />} />
-		// 	<Route path="/register" element={<RegisterPage />} />
-		// 	<Route path="/performance" element={< PerformancePage/>} />
+		<Router>
+		  <Routes basename={process.env.PUBLIC_URL}> 
+			<Route path="/" element={<App />} />
+			<Route path="/about" element={<AboutPage />} />
+			<Route path="/service" element={<ServicesPage />} />
+			<Route path="/login" element={<LoginPage />} />
+			<Route path="/register" element={<RegisterPage />} />
+			<Route path="/performance" element={< PerformancePage/>} />
 	
-		//   </Routes>
-		// </Router>
-
-		<>
-		<Header/>
-		</>
+		  </Routes>
+		</Router>
 	  );
 };
 
