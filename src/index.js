@@ -11,7 +11,7 @@ import PerformancePage from './PerformancePage';
 export default function Main(){
 	return (
 		<Router>
-		  <Routes>
+		  <Routes basename={process.env.PUBLIC_URL}> 
 			<Route path="/" element={<App />} />
 			<Route path="/about" element={<AboutPage />} />
 			<Route path="/service" element={<ServicesPage />} />
