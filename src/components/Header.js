@@ -20,16 +20,16 @@ export default function Header(){
                     <a href="/service">Services</a>
                  </li>
                   <li class="nav-link services">
-                    <a href='/'>About
+                    <a>About
                         <span class="material-icons dropdown-icon">
                             arrow_drop_down
                         </span>
                     </a>
                     <ul class="drop-down">
                     <a href='/about'> <li>About Us</li></a>
-                        <li>Expert Adviser</li>
-                        <li>Disclaimer</li>
-						            <li>FAQ</li>
+                    <a href='/expertadviser'> <li>Expert Adviser</li></a>
+                    <a href='/disclaimer'> <li>Disclaimer</li></a>
+                    <a href='/faq'> <li>FAQ</li></a>
                          </ul>
                        </li>
 				              <li class="nav-link">
@@ -42,8 +42,8 @@ export default function Header(){
                         </span>
                     </a>
                     <ul class="drop-down">
-                      <li>Plan</li>
-                      <li>Payment Method</li>
+                    <a href='/priceplan'> <li>Plan</li></a>
+                    <a href='/paymentmethod'> <li>Payment Method</li></a>
                       
                     </ul>
                 </li>
@@ -77,22 +77,22 @@ export default function Header(){
       <span></span>
     </label>
     <ul class="menu__box">
-      <li><a class="menu__item" href="/index.html">Home</a></li>
-      <li><a class="menu__item" href="/services.html">Services</a></li>
-      <li><a class="menu__item" href="/about.html">About</a>
+      <li><a class="menu__item" href="/">Home</a></li>
+      <li><a class="menu__item" href="/service">Services</a></li>
+      <li><a class="menu__item" href="/">About</a>
         <ul>
-            <li><a class="aboutus_hamburger-menu" href="/about.html">About Us</a></li>
-            <li><a class="aboutus_hamburger-menu" href="/expertadvisor.html">Expert Adviser</a></li>
-            <li><a class="aboutus_hamburger-menu" href="/disclaimer.html">Disclaimer</a></li>
-            <li><a class="aboutus_hamburger-menu" href="/faq.html">Faq</a></li>
+            <li><a class="aboutus_hamburger-menu" href="/about">About Us</a></li>
+            <li><a class="aboutus_hamburger-menu" href="/expertadviser">Expert Adviser</a></li>
+            <li><a class="aboutus_hamburger-menu" href="/disclaimer">Disclaimer</a></li>
+            <li><a class="aboutus_hamburger-menu" href="/faq">Faq</a></li>
         </ul>
     </li>
-      <li><a class="menu__item" href="/historicalgraphics.html">Backtesting and live Results</a></li>
+      <li><a class="menu__item" href="/historicalgraphics">Backtesting and live Results</a></li>
       <li><a class="menu__item" href="/price">Price and payment</a></li>
       <ul>
-        <li><a class="aboutus_hamburger-menu" href="/price.html">Price Plan</a></li>
+        <li><a class="aboutus_hamburger-menu" href="/price">Price Plan</a></li>
           </ul>
-          <li><a class="menu__item" href="/contact.html">Contact Us</a></li>
+          <li><a class="menu__item" href="/contact">Contact Us</a></li>
           <li><a class="menu__item" href="/login">Login</a></li>
 
           <li><a class="menu__item" href="/register">Register</a></li>

@@ -7,6 +7,7 @@ import ServicesPage from './Services';
 import LoginPage from './LoginPage';
 import RegisterPage from './RegisterPage';
 import PerformancePage from './PerformancePage';
+import ExpertAdviserPage from './ExpertAdviserPage';
 
 export default function Main(){
 	return (
@@ -17,7 +18,8 @@ export default function Main(){
 			<Route path="/service" element={<ServicesPage />} />
 			<Route path="/login" element={<LoginPage />} />
 			<Route path="/register" element={<RegisterPage />} />
-			<Route path="/performance" element={< PerformancePage/>} />
+			<Route path="/performance" element={<PerformancePage/>} />
+			<Route path="/expertadviser" element={<ExpertAdviserPage/>} />
 	
 		  </Routes>
 		</Router>
